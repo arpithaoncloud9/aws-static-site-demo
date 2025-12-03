@@ -1,7 +1,5 @@
-# aws-static-site-demo
 
-
-# End‑to‑End Static Website Hosting with AWS S3, CloudFront, and Route 53
+# Static Website Hosting with AWS S3, CloudFront, and Route 53
 
 ##  Step 1: Create and Configure Your S3 Bucket
 
