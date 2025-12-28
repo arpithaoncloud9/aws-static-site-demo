@@ -97,6 +97,10 @@
 #### Verify
 
 1. Visit your CloudFront domain (e.g., dldx46bp7p6e1.cloudfront.net) //CloudFront works
+
+<img width="1440" height="646" alt="image" src="https://github.com/user-attachments/assets/21ae9698-9a84-46cd-87a7-1869f78ef7ec" />
+
+
 2. https://maria-static-site-demo.s3.amazonaws.com/index.html  //S3 URL doesn't work
 
 #### Why CloudFront Works but S3 URL Doesn’t
@@ -184,3 +188,9 @@
  2. Visit `https://setwin.xyz` // your static site should load securely via CloudFront.
  3. Visit `https://www.setwin.xyz` // should redirect to the same site if you added the CNAME.
  4. Confirm the 🔒 padlock in your browser.
+
+<img width="1110" height="341" alt="setwin xyz_domain" src="https://github.com/user-attachments/assets/7f3e9f10-da30-4904-83d4-2071f583c90a" />
+
+
+<img width="1117" height="315" alt="www setwin xyz" src="https://github.com/user-attachments/assets/2e6534e4-fdf4-489d-a8c5-9bc353734f4b" />
+
