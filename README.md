@@ -194,3 +194,14 @@
 
 <img width="1117" height="315" alt="www setwin xyz" src="https://github.com/user-attachments/assets/2e6534e4-fdf4-489d-a8c5-9bc353734f4b" />
 
+## Outcome:
+- Hosted static website files (HTML, CSS, JS) in a **private S3 bucket** with strict security controls
+- Configured **CloudFront with Origin Access Control (OAC)** to ensure only CloudFront could access S3 content
+- Improved performance using **CloudFront caching, HTTPS redirection, and global edge locations**
+- Provisioned and validated a **public SSL certificate in ACM (us‑east‑1)** for the custom domain (setwin.xyz, www.setwin.xyz)
+- Enabled **secure HTTPS delivery** of the site through CloudFront using the custom domain
+- Integrated **Route 53** by creating a hosted zone and updating registrar name servers for domain ownership
+- Created DNS records to map the domain and subdomain to the **CloudFront distribution**
+- Completed DNS validation for ACM, ensuring the certificate reached **Issued** status
+- Attached the SSL certificate to CloudFront and mapped both domain names for secure access
+- Verified the full setup end‑to‑end: site served securely via CloudFront, HTTPS padlock confirmed, and www redirected correctly to the root domain
